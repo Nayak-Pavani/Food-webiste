@@ -23,7 +23,53 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.hello{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 
+}
+/* Assuming you have a CSS file or using styled-components */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  width: 450px; /* Set the desired width for the todo item */
+  margin-bottom: 10px; /* Adjust as needed for spacing between items */
+}
+
+h5 {
+  word-wrap: break-word; /* Allow long words to break and wrap to the next line */
+  max-width: 70%; /* Set a maximum width for the todo item's text */
+}
+
+.delete-button {
+  width: 80px; /* Set the desired width for the delete button */
+  height: 40px; /* Set a fixed height for the delete button */
+}
+.edit-button{
+  position: fixed;
+  right: 31%;
+  width: 80px;
+  height: 40px; 
+
+}
+/* .parent-div{
+  background-color: red;
+  height: 100%;
+  width:100%
+} */
+.item-class{
+  width: 254px;
+}
+.btn-class{
+  position: relative;
+  margin-top: 30px;
+  left: 10px;
+}
+.second-class{
+  position: absolute;
+  top: 113px;
+}
 .App-link {
   color: #61dafb;
 }
