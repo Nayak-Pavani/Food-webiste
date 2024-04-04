@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,22 +29,22 @@
   margin: 20px;
 
 }
-/* Assuming you have a CSS file or using styled-components */
+
 .todo-item {
   display: flex;
   justify-content: space-between;
-  width: 450px; /* Set the desired width for the todo item */
-  margin-bottom: 10px; /* Adjust as needed for spacing between items */
+  width: 450px; 
+  margin-bottom: 10px; 
 }
 
 h5 {
-  word-wrap: break-word; /* Allow long words to break and wrap to the next line */
-  max-width: 70%; /* Set a maximum width for the todo item's text */
+  word-wrap: break-word;
+  max-width: 70%; 
 }
 
 .delete-button {
-  width: 80px; /* Set the desired width for the delete button */
-  height: 40px; /* Set a fixed height for the delete button */
+  width: 80px; 
+  height: 40px;
 }
 .edit-button{
   position: fixed;
@@ -53,11 +53,7 @@ h5 {
   height: 40px; 
 
 }
-/* .parent-div{
-  background-color: red;
-  height: 100%;
-  width:100%
-} */
+
 .item-class{
   width: 254px;
 }
@@ -81,4 +77,4 @@ h5 {
   to {
     transform: rotate(360deg);
   }
-}
+} */
