@@ -12,10 +12,12 @@ const Navbar = () => {
       <ul className="navbar-menu">
         <li onClick={() =>setMenu("home")} className={menu === "home" ?"active":""}>Home</li>
         <li onClick={() =>setMenu("menu")} className={menu === "menu" ?"active":""}>Menu</li>
-        <li  onClick={() =>setMenu("app")} className={menu === "app" ?"active":""}>Mobile-app</li>
+        {/* <li  onClick={() =>setMenu("app")} className={menu === "app" ?"active":""}>Mobile-app</li> */}
         <li onClick={() =>setMenu("contact")} className={menu === "contact" ?"active":""}>Contact us</li>
+
       </ul>
       {/* <div className="navbar-right"> */}
+      <img src={assets.addtocart} alt="" className="addtocart" /> 
       <button className="button">sign in </button>
       {/* </div> */}
     </div>

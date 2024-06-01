@@ -10,6 +10,9 @@ import salad from "./salad.png";
 import food1 from "./food1.png";
 import menu1 from "./menu_1.png";
 import menu2 from "./menu_2.png";
+import addtocart from "./addtocart.png";
+import add_icon_white from "./add_icon_white.png";
+
 
 import menu3 from "./menu_3.png";
 
@@ -79,6 +82,9 @@ import food_30 from "./food_30.png";
 
 import food_31 from "./food_31.png";
 import food_32 from "./food_32.png";
+import remove_icon_red from "./remove_icon_red.png"
+import add_icon_green from "./add_icon_green.png"
+
 
 export const assets = {
   icon1,
@@ -89,7 +95,11 @@ export const assets = {
   salad,
   food1,
   allfood,
-  rating_stars
+  rating_stars,
+  addtocart,
+  add_icon_white,
+  remove_icon_red,
+  add_icon_green
 };
 export const menu_list = [
   {
@@ -137,7 +147,7 @@ export const food_list = [
   },
   {
     id: "2",
-    name: "Greek salad",
+    name: "Veg salad",
     image: food_2,
     price: 15,
     description:
@@ -146,7 +156,7 @@ export const food_list = [
   },
   {
     id: "3",
-    name: "Greek salad",
+    name: "Clover salad",
     image: food_3,
     price: 18,
     description:
@@ -155,7 +165,7 @@ export const food_list = [
   },
   {
     id: "4",
-    name: "Greek salad",
+    name: "Chicken salad",
     image: food_4,
     price: 22,
     description:
