@@ -1,4 +1,5 @@
 .header{
+    border-radius:15px ;
     height: 45vw;
     margin: 30px auto;
     background: url('../../assets/header_img.jpg') no-repeat;

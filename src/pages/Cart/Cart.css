@@ -2,10 +2,26 @@
     margin: 100px 0px;
 }
 
+.no-cart img {
+    height: 23vw;
+    margin-left: 35%;
+}
+
 .cart hr {
     height: 1px;
     background-color: #E2E2E2;
     border: none;
+}
+
+.go-to-menu {
+    margin-top: 30px;
+    padding: 11px 20px;
+    text-transform: uppercase;
+    background-color: #fc8019;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-left: 45%
 }
 
 .cart-items-title {
@@ -25,6 +41,25 @@
     width: 50px;
 }
 
+.no-cart-items {
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 22px;
+    color: #535665;
+
+
+
+}
+
+.see-rest {
+    text-align: center;
+    padding: 8px 8px;
+    font-size: 15px;
+    color: #7e808c;
+
+
+}
+
 .cart-items-item div {
     max-width: 40px;
     text-align: center;
@@ -32,14 +67,16 @@
     padding: 8px 8px;
     font-size: 12px;
 }
-.cart-items-remove-icon{
+
+.cart-items-remove-icon {
     cursor: pointer;
 }
+
 .cart-bottom {
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    gap: max(12vw,20px);
+    gap: max(12vw, 20px);
 }
 
 .cart-total {
@@ -63,7 +100,7 @@
     border: none;
     color: white;
     background-color: #FF4C24;
-    width: max(15vw,200px);
+    width: max(15vw, 200px);
     padding: 12px 0px;
     border-radius: 4px;
     cursor: pointer;
@@ -72,10 +109,12 @@
 .cart-promocode {
     flex: 1;
 }
-.cart-promocode p{
+
+.cart-promocode p {
     color: #555555;
 }
-.cart-promocode-input{
+
+.cart-promocode-input {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
@@ -83,14 +122,16 @@
     background-color: #eaeaea;
     border-radius: 4px;
 }
-.cart-promocode-input input{
+
+.cart-promocode-input input {
     background: transparent;
     border: none;
     outline: none;
     padding-left: 10px;
 }
-.cart-promocode-input button{
-    width: max(10vw,150px);
+
+.cart-promocode-input button {
+    width: max(10vw, 150px);
     padding: 12px 5px;
     background-color: black;
     border: none;
@@ -102,7 +143,41 @@
     .cart-bottom {
         flex-direction: column-reverse;
     }
-    .cart-promocode{
+
+    .cart-promocode {
         justify-content: start;
     }
+
+    .no-cart img {
+        height: 38vw;
+        margin-left: 28%;
+    }
+
+  
+
+    .no-cart-items {
+        text-align: center;
+        padding: 8px 8px;
+        font-size: 15px;
+        color: #535665;
+
+
+
+    }
+
+    .see-rest {
+        text-align: center;
+        padding: 8px 8px;
+        font-size: 10px;
+        color: #7e808c;
+
+
+    }
+
+
+
+
+
+
+
 }
